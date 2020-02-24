@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monopoly</title>
-    <script src="monopoly.js" type="module"></script>
-    <!-- <script src="monopoly_old.js" type="module"></script> -->
+    <!-- <script src="monopoly.js" type="module"></script> -->
+    <script src="generate.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="monopoly_old.js" type="module"></script>
 </head>
 <body>
-    <button class="player-1" id="player-1" onclick>Player - 1</button>
+    <h1>MONOPOLY</h1>
+    <div>
+    <div id ="board">
+            <div class="box" id = "box1"><img src ="assets/redcone.jfif" id = "img1">0<img src="assets/yellowcone.jfif" id="img2"></div>
+            <div class="box" id = "box2">20</div>
+            <div class="box" id = "box3">30</div>
+            <div class="box" id = "box4">40</div>
+            <div class="box" id = "box5">50</div>
+            <div class="box" id = "box16">160</div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" id = "box6">60</div>
+            <div class="box" id = "box15">150</div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" id = "box7">70</div>
+            <div class="box" id = "box14">140</div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" style="visibility:hidden"></div>
+            <div class="box" id = "box8">80</div>
+            <div class="box" id = "box13">130</div>
+            <div class="box" id = "box12">120</div>
+            <div class="box" id = "box11">110</div>
+            <div class="box" id = "box10">100</div>
+            <div class="box" id = "box9">90</div>
+        </div>
+    </div>
+    <button id="player-1" onclick>Player - 1</button>
+    <button id="score1">money: 1000</button>
     <button id="player-2" onclick>Player - 2</button>
-    
+    <button id="score2">money: 1000</button>
+    </div>
 </body>
 </html>
